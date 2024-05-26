@@ -1,7 +1,13 @@
 # Whatsapp_poll_parser
-Transferring polls from Whatsapp to google sheets
+Transferring polls from WhatsApp to Google sheets
 
-Before running the code don't forget to create a file called .env
+## Prerequisites
+All files are in the same directory.
+### credentials.json
+A file taken from console.cloud.google.com, you also need to enable Google sheet API.
+
+### .env
+A file written by you.
 
 It should hold the variables: zip_name, chat_name, and sheet_id
 
@@ -12,7 +18,8 @@ chat_name="our awesome chat"
 sheet_id="some_string_from_google_sheet"
 ```
 
-## To run the code do:
+## Run:
+To run the code write into terminal:
 ```
 ./run.sh
 ```
