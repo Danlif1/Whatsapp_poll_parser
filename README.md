@@ -11,7 +11,7 @@ zip_name="abc.zip"
 chat_name="our awesome chat"
 ```
 
-To run the code do:
+## To run the code do:
 ```
 ./run.sh
 ```
